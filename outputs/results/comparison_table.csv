@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score,AUC-ROC,Exclusion Error,Inclusion Error,True Poor Caught,Hidden Poor (FN)
+"Logistic Regression
+(Baseline)",0.873,0.518,0.9142,0.6613,0.9527,0.0858,0.1334,4048,380
+CatBoost,0.8708,0.5131,0.9291,0.6611,0.958,0.0709,0.1383,4114,314
+XGBoost,0.9029,0.5979,0.8661,0.7074,0.9608,0.1339,0.0914,3835,593
